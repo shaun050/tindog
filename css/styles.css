@@ -1,0 +1,138 @@
+body{
+    font-family: "Lilita One";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    height: 720px;
+}
+h1{
+   
+    font-family: 'Lilita One';
+    font-size: 2.5rem;
+    line-height: 2;
+  
+}
+.abc{
+    padding: 3% 15% ;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    width: 60%;
+    position: relative;
+  right: -10%;
+  z-index: 1;
+    
+}
+
+#features {
+    position: relative;
+    
+  }
+.navbar{
+    padding-bottom: 4.5rem;
+}
+    
+.nav-item{
+    padding: 0 18px;
+}
+.download-button{
+    margin: 3% 3% 5% 0;
+}
+#features{
+    padding: 150px 30px 150px 30px;
+    text-align: center;
+    background-color: #fff;
+}
+h3{
+    font-family: 'Lilita One';
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family: 'ubuntu';
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.nbr{
+    
+    font-family: 'ubuntu';
+    font-size: 4rem;
+    font-weight: 400;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+    }
+    #title{
+        height: 1190px;
+    }
+  }
+ #cta{
+    background-color: #ff4c68;
+    padding: 100px 30px 100px 30px;
+    color: #fff;
+    text-align: center;
+ }
+ #footer{
+    padding: 170px 30px 170px 30px;
+    text-align: center;
+   
+ }
+ .social-media{
+    padding: 50px 400px 50px 400px;
+ }
+ .copy-right{
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .ending-title{
+    font-family: 'Lilita One';
+ }
+ .logo{
+    margin: 20px 10px;
+    color: #8f8f8f
+ }
